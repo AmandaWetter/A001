@@ -1,0 +1,2 @@
+=== Jlksdjlkjsö flJF SLdkjf lskjSLFDjs kjdf
+Because we use paths instead of URLs here for our remotes, we hit a weird, albeit well-known, snag: relative paths for remotes are interpreted relative to our main remote, no to our repo’s root directory. This is super weird, not described anywhere, but I’ve seen it happen every time. So instead of saying
