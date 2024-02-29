@@ -1,0 +1,3 @@
+ifndef::env-github[]
+include::A000_Test @ 3ad3585/docs/impressum.adoc[]
+endif::[]
