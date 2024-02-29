@@ -2,3 +2,4 @@ title: "Jekyll Actions Demo"
 
 collections:
   authors:
+    output: true
