@@ -19,3 +19,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "datenmodelle"
+    values:
+      layout: "datenmodell"
