@@ -1,0 +1,5 @@
+== A002 Datenmodell
+
+Sometimes you might want to output something in production but not in development. Analytics scripts are the most common example of this.
+
+To do this you can use environments. You can set the environment by using the JEKYLL_ENV environment variable when running a command. For
