@@ -1,6 +1,6 @@
 - name: Home
-  link_txt: https://amandawetter.github.io/A001/
+  link_txt: /
   link: https://amandawetter.github.io/A001/
 - name: About
-  link_txt: https://amandawetter.github.io/A001/about.html
+  link_txt: /about.html
   link: https://amandawetter.github.io/A001/about.html
