@@ -7,3 +7,6 @@
 - name: Blog
   link_txt: /blog.html
   link: https://amandawetter.github.io/A001/blog.html
+- name: Staff
+  link_txt: /staff.html
+  link: https://amandawetter.github.io/A001/staff.html
