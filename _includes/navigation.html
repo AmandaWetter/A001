@@ -1,4 +1,7 @@
 <nav>
-  <a href="https://amandawetter.github.io/A001/" {% if page.url == "https://amandawetter.github.io/A001/" %}style="color: red;"{% endif %}>Home</a>
-  <a href="https://amandawetter.github.io/A001/about.html" {% if page.url == "https://amandawetter.github.io/A001/about.html" %}style="color: red;"{% endif %}>About</a>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
 </nav>
