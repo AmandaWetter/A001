@@ -1,6 +1,6 @@
 ---
 layout: post
-author: ted
+author: Amanda
 ---
 
 == Post Nr. 03
