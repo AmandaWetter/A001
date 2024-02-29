@@ -10,3 +10,6 @@
 - name: Staff
   link_txt: /staff.html
   link: https://amandawetter.github.io/A001/staff.html
+- name: Datenmodelle
+  link_txt: /datenmodelle.html
+  link: https://amandawetter.github.io/A001/datenmodelle.html
