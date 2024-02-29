@@ -1,3 +1,7 @@
+---
+title: About
+---
+
 == Hier kommt der grosse Titel
 Und hier kommt ein Text+
 
