@@ -1,0 +1,6 @@
+---
+short_name: Amanda
+name: Amanda Wetter
+position: Writer
+---
+Amanda has been eating fruit since she was baby.
