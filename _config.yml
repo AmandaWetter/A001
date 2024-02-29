@@ -1,5 +1,8 @@
 git sttitle: "Jekyll Actions Demo"
 
+plugins:
+- jekyll.asciidoc
+
 collections:
   authors:
     output: true
