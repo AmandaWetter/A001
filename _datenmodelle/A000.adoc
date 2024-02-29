@@ -8,4 +8,4 @@ Sometimes you might want to output something in production but not in developmen
 
 To do this you can use environments. You can set the environment by using the JEKYLL_ENV environment variable when running a command. For
 
-include::A000_Test/docs/impressum.adoc[]
+include::/A000_Test/docs/impressum.adoc[]
