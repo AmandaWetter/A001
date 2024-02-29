@@ -4,3 +4,6 @@
 - name: About
   link_txt: /about.html
   link: https://amandawetter.github.io/A001/about.html
+- name: Blog
+  link_txt: /blog.html
+  link: https://amandawetter.github.io/A001/blog.html
