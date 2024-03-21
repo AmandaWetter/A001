@@ -3,6 +3,7 @@ title: A000 Datenmodelle
 ---
 
 == A000 Datenmodelle
+:skip-front-matter:
 
 Sometimes you might want to output something in production but not in development. Analytics scripts are the most common example of this.
 
