@@ -3,8 +3,6 @@ title: About
 ---
 
 == Hier kommt der grosse Titel
-:skip-front-matter:
 Und hier kommt ein Text+
 
 You could copy the contents of index and modify it for the About page. However, this creates duplicate code that has to be customized for each new page you add to your site.
-include::./_datenmodelle/A000.adoc[]
