@@ -1,3 +1,4 @@
-== A001 Ein neues Repo
+= A001 Ein neues Repo
+:skip-front-matter:
 Bllskfjlsdkjfih lsjfsdjlf ösljdflsjf
 slfjls fjlfjs lfs 
