@@ -2,10 +2,9 @@
 title: A000 Datenmodelle
 ---
 
-= A000 Datenmodelle
-:skip-front-matter:
+== A000 Datenmodelle
 Sometimes you might want to output something in production but not in development. Analytics scripts are the most common example of this.
 
 To do this you can use environments. You can set the environment by using the JEKYLL_ENV environment variable when running a command. For
 
-include::./A002.adoc[]
+include::A002.adoc[]
