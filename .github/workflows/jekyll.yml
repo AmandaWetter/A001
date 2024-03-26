@@ -43,7 +43,7 @@ jobs:
         uses: reitzig/actions-asciidoctor@v2.0.1
         with:
           version: 2.0.18
-      - run: asciidoctor.convert_file './_datenmodelle/A000.adoc', safe: :safe
+      - run: asciidoctor -r ./lib/front-matter-preprocessor.rb ./_datenmodelle/A000.adoc
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
