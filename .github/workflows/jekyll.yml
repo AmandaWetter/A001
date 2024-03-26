@@ -44,6 +44,7 @@ jobs:
         with:
           version: 2.0.18
       - run: asciidoctor -r ./lib/front-matter-preprocessor.rb ./_datenmodelle/A000.adoc
+             Asciidoctor.convert_file './_datenmodelle/A000.adoc', to_file: 'output.html'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
