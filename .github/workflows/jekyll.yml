@@ -40,7 +40,10 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Preprocessor
-        run: asciidoctor -r ./lib/front-matter-precprocessor ./_datenmodelle/A000.adoc
+        uses: reitzig/actions-asciidoctor@v2.0.1
+        with:
+          version: 2.0.18
+      - run: asciidoctor -r ./lib/front-matter-precprocessor ./_datenmodelle/A000.adoc
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
