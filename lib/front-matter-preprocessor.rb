@@ -4,4 +4,4 @@ Asciidoctor::Extensions.register do
   preprocessor FrontMatterPreprocessor
 end
 
-Asciidoctor.convert_file '../_datenmodelle/A000.adoc', to: 'A000_Resultat.adoc'
+Asciidoctor.convert_file '../_datenmodelle/A000.adoc', safe: :safe
