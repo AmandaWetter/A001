@@ -1,5 +1,5 @@
 <nav>
-  {% for item in site.data.navigation %}
+  {% for item in site.data.datenmodell %}
     <a href="{{ item.link }}" {% if page.url == item.link_txt %}class="current"{% endif %}>{{ item.name }}, Test: {% if page.url == item.link_txt %}True{% endif %}</a>
   {% endfor %}
 </nav>
